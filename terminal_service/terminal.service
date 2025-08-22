@@ -1,0 +1,17 @@
+[Unit]
+Description= This service will check config terminal if data is not passing it will recover it.
+After=network.target
+
+[Service]
+User=gxranops
+Group=gxranops
+WorkingDirectory=/home/gxranops/
+ExecStart=/home/gxranops/terminal_recovery/term_recovery/bin/python3.11 /home/gxranops/terminal_recovery/term_recovery/terminal_recovery/src/main.py 
+Restart=always
+RestartSec=10
+User=root
+TimeoutStartSec=0
+
+[Install]
+WantedBy=multi-user.target
+

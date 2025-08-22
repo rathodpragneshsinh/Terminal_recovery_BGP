@@ -1,0 +1,9 @@
+/var/log/terminal/terminal.log {
+    rotate 6
+    weekly
+    compress
+    missingok
+    notifempty
+    maxsize 500M
+    create 644 root root
+}

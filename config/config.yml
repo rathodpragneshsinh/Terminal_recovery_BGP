@@ -1,0 +1,10 @@
+NMS_IP : "10.238.232.45"
+Terminal_name : ["Terminal-654313024-1600","Terminal-654312861-1437","Terminal-654313035-1611","Terminal-654312901-1477","Terminal-654312711-1287","Terminal-654312893-1469","Terminal-654312892-1468","Terminal-654312699-1275"]
+#Terminal_name : ["Terminal-335623848-79528"]
+#vrf_id : ["3925"]
+terminal_altitude : "10000"
+#Terminal_name : ["Terminal-654313024-1600"]
+vrf_id : ["1215","1215","1215","1215","1215","1215","1215","1215"]
+
+basic_demand : 200  #kbps
+dryrun : True
